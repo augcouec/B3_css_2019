@@ -1,5 +1,5 @@
         body {
-            margin: 0;
+            margin: 0 auto;
         }
         
         /*media queries for body color change*/
@@ -31,7 +31,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url("../assets/lrg/01-snub-nosed-monkey.jpg") ;
+            background-image: url("../assets/lrg/01-snub-nosed-monkey.jpg");
+            background-size: cover no-repeat;
             background-color: #000;
             color: #FFF;
 

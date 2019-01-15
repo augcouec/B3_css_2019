@@ -1,5 +1,41 @@
 .title__section{
-    font-family: 'roboto';
     font-size: 3EM;
     font-weight: 700;
+}
+
+/*font body for EM size purpose
+-----------------------*/
+body{
+    font-family: 'Raleway',sans-serif;
+
+}
+
+@media screen and (max-width: 440px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 640px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1380px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1380px) and (max-width: 4000px) {
+    body {
+        font-size: 24px;
+    }
 }
