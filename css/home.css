@@ -11,14 +11,7 @@
      color: #FFF;
  }
 
- #section2 {
-     width: 100%;
-     height: auto;
-     margin-bottom: 2%;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
- }
+
 
  .col {
      margin: 1%;
@@ -41,34 +34,10 @@
 
  }
 
- #section4 {
-     width: 100vw;
-     margin-bottom: 10%;
- }
-
- .large_monkey {
-     width: 100vw;
-     height: auto;
-     object-fit: cover;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
 
 
- #section5 {
-     width: 100vw;
-     min-height: 60vh;
-     background: url("../assets/lrg/b5279c68f4fd754dcaeef632dacfb462.jpg") no-repeat;
-     background-size: cover;
-     object-fit: cover;
-     background-attachment: fixed;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 10%;
 
- }
+
 
  .strip {
      width: 100vw;
