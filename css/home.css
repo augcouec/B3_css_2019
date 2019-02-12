@@ -11,3 +11,28 @@
      color: #FFF;
  }
 
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.text_column {
+    column-count: 3;
+    column-gap: 50px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .text_column {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 700px) {
+    .text_column {
+        column-count: 1;
+    }
+}
